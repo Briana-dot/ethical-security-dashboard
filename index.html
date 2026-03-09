@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Ethical Security Dashboard</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1>ETHICAL SECURITY OPERATIONS DASHBOARD</h1>
+
+<div class="container">
+
+<div class="card">
+<h2>System Information</h2>
+<p id="platform"></p>
+<p id="browser"></p>
+<p id="time"></p>
+</div>
+
+<div class="card">
+<h2>Network Info</h2>
+<p id="ip">Checking IP...</p>
+</div>
+
+<div class="card">
+<h2>Port Monitoring</h2>
+<div id="ports"></div>
+</div>
+
+<div class="card">
+<h2>Security Alerts</h2>
+<div id="alerts"></div>
+</div>
+
+<div class="card">
+<h2>Activity Log</h2>
+<div id="terminal"></div>
+</div>
+
+<div class="card">
+<h2>Network Activity</h2>
+<canvas id="chart"></canvas>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
